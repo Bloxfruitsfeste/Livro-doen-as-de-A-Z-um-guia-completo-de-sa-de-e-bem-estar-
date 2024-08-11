@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Adiciona espaçamento superior e inferior ao main */
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar o main */
+    border-radius: 5px; /* Arredonda as bordas do main */
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+.book-info h2 {
+    color: #333;
+    margin-top: 20px; /* Adiciona espaçamento superior */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove margem padrão */
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0; /* Adiciona um pouco mais de espaço entre os itens */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px; /* Arredonda as bordas dos itens da lista */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Adiciona sombra no topo do rodapé */
+}
